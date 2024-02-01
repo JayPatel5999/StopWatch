@@ -40,3 +40,20 @@ body{
 .buttons img:nth-child(2){
     width: 80px;
 }
+
+.buttons button{
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stopwatch ul{
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
