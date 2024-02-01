@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StopWatch</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Your HTML content here -->
-
-    <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="buttons">
+        <img onclick="watchStop()" src="/images/stop.png" alt="stop button" />
+        <img onclick="watchStart()" src="/images/start.png" alt="stop button" />
+        <img onclick="watchReset()" src="/images/reset.png" alt="stop button" />
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
 </html>
